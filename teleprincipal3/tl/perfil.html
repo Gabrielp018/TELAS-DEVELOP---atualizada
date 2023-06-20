@@ -1,0 +1,98 @@
+<html lang="pt-br"> 
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perf.css">
+    
+    
+	<title>Perfil - Develop</title>
+	<script src="https://kit.fontawesome.com/7c831017e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="Projetos()">
+
+	<nav class="nav-bar">
+		<div class="logo">
+			<h1>DEVELOP</h1><img src="img/LOGO-removebg-preview.png" alt="" style="width: 91px;
+			height: 83px;
+			margin-bottom: 0px;
+		">
+		</div>
+		<div class="nav-list">
+			<ul style="color: white;">
+				<li class="nav-item"><a href="telaprincipal2.html" class="nav-link">Tela principal</a></li>
+				<li class="nav-item"><a href="#cursos" class="nav-link">Cursos</a></li>
+				<li class="nav-item"><a href="#footer" class="nav-link">Contato</a></li>
+				<li class="nav-item"><a href="rank.html" class="nav-link">Ranking Mensal</a></li>
+			</ul>
+		</div>
+		
+		<div class="mobile-menu-icon">
+			<button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+		</div>
+	</nav>
+
+
+<div class="mobile-menu">
+		<ul style="color: #00ff88;">
+			<li class="nav-item"><a href="#" class="nav-link">Cadastre-se</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Cursos</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+		</ul>
+
+		<div class="login-button">
+			<button><a href="#">Login</a></button>
+		</div>
+	</div>
+
+
+	<header>
+		<div class="content">
+			<div class="container infors-perfil">
+				<i class="far fa-user"></i>
+				<h1>Olá, eu sou <span style="color:#00ff88">Denner</span></h1>
+				<p>Desenvolvedor Front-End JR #imersaodev</p>
+				<div class="redes-sociais">
+					<p>Fale Comigo</p>
+					<ul>
+						<a href="https://github.com/denersonpinas" target="blanck"></a>
+						<li><i class="fab fa-github"></i></li></a>
+						<a href="https://www.linkedin.com/in/denersonpinas/" target="blanck"></a>
+						<li><i class="fab fa-linkedin"></i></li></a>
+						<a href="https://www.instagram.com/denersonpinas/?hl=de" target="blanck"></a>
+						<li><i class="fab fa-instagram"></i></li></a>
+
+						<a href="https://api.whatsapp.com/send?phone=5573981765369&text=Ol%C3%A1%2C%20por%20meio%20do%20seu%20portf%C3%B3lio!" target="blanck"></a>
+						<li><i class="fab fa-whatsapp"></i></li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="container contato">
+				<p>Baixe meu curriculo:</p>
+				<div class="btns">
+					<a href="https://firebasestorage.googleapis.com/v0/b/wsremoto-1193d.appspot.com/o/D%C3%8ANERSON%20PINAS.pdf?alt=media&token=bc5d9ebd-bf71-4f0b-a413-4dfeae67abce" download="PDF" type="application/pdf"><button>DOWNLOAD</button></a>
+					<a href="https://wa.me/5575983639868" target="_blanck"><button>CONTATO</button></a>
+				</div>
+			</div>
+		</div>
+		<div class="content container img">
+			<img class="foto-perfil" src="img/cara (1).png" alt="Foto Perfil">  
+		</div>
+	</header>
+	<main>
+		<hr>
+		<p>1 ano e meio de experiência</p>
+		<h1>Meus Projetos</h1>
+		<div class="projetos" id="projetos">
+		</div>
+	</main>
+	<footer>
+		<button id="clear" onclick="mudaTema()">CLEAR MODE</button>
+		<p>Os projetos acima foram desenvolvidos por <b>Dênerson Pinas @ Email - contato@denersonpinas.com</b></p>
+		
+	</footer>
+</body>
+<script src="perfil.js"></script>
+</html> 
